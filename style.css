@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-background{
+    background-image: url("images/depositphotos_491851084-stock-photo-dark-green-leaves-with-rain.jpg");
+    height: 120px;
+    object-fit: cover;
+    
+}
+.social-icons i {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.888);
+  margin: 15px;
+  transition: 0.3s;
+}
+
+/* .card-img-top {
+  height: 250px; 
+  object-fit: cover;
+  width: 100%; 
+} */
