@@ -24,50 +24,47 @@
 
 
     <!-- nav Bar -->
-    <nav class="navbar  navbar-expand-lg bg-body-tertiar header-background mb-5  ">
+    <nav class="navbar navbar-expand-lg navbar-dark header-background mb-5">
         <div class="container-fluid">
-            <a class="navbar-brand " href="#">
-                <h2 class="text-light p-5">Blooms.in</h2>
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <h2 class="text-light">Blooms.in</h2>
             </a>
-            <!-- <div class="social-icons d-none d-lg-block"> <i class="fa-solid fa-location-dot "></i>
-            </div>
 
-            <a class="navbar-brand d-none d-lg-block" href="#">
-                <h5 class="text-light ">Deliver to address</h5>
-            </a> -->
-            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <form class="d-flex">
-                <input class="form-control me-2 d-none d-lg-block" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success d-none d-lg-block" type="submit">Search</button>
-            </form>
+            <!-- Collapsible content -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav   ms-auto">
-                    <!-- <div class="social-icons d-none d-lg-block">
-                        <i class="fa-solid fa-circle-user"></i>
-                    </div>
-                    <li class="nav-item">
-                        <a class="nav-link active text-light mt-2" aria-current="page" href="#">
-                            Hello User</a>
-                    </li> -->
- 
-                    <li class="nav-item">
-                        <a class="nav-link text-light mt-2" target="contentFrame" aria-current="page" href="#">Returns &
-                            order </a>
+                <form class="d-flex flex-grow-1 my-3 my-lg-0 mx-lg-5">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <!-- Right side (nav items + icons) -->
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <!-- Profile -->
+                    <li class="nav-item d-flex align-items-center">
+                        <i class="fa-solid fa-circle-user text-light me-2"></i>
+                        <a class="nav-link active text-light" href="#">Hello User</a>
                     </li>
-                    <div class="social-icons d-none d-lg-block">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
+
+                    <!-- Orders -->
                     <li class="nav-item">
-                        <a class="nav-link text-light mt-2 " aria-current="page" href="#">Cart</a>
+                        <a class="nav-link text-light" href="#">Returns & Orders</a>
+                    </li>
+
+                    <!-- Cart -->
+                    <li class="nav-item d-flex align-items-center">
+                        <i class="fa-solid fa-cart-shopping text-light me-2"></i>
+                        <a class="nav-link text-light" href="#">Cart</a>
                     </li>
                 </ul>
             </div>
         </div>
-
     </nav>
 
     <!-- nav bar end -->
